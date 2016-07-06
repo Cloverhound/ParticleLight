@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Iot device:</strong>
+  <%= @device.iot_device_id %>
+</p>
+
+<p>
+  <strong>Access key:</strong>
+  <%= @device.access_key %>
+</p>
+
+<p>
+  <strong>Pin 1 status:</strong>
+  <%= @device.pin_1_status %>
+</p>
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>
