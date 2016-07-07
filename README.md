@@ -6,7 +6,8 @@ application up and running.
 AUSTIN CHANGE
 Things you may want to cover:
 
-* Ruby version
+MIKE CHANGE
+* Ruby version 
 
 * System dependencies
 
